@@ -2,7 +2,8 @@
   <div class="home">
     <!-- <h1>h5</h1> -->
     <van-button type="info" @click="getHomeData">h5 小程序 template 2021</van-button>
-    {{permission.routes}}
+    <!-- <span>{{permission.routes}}</span> -->
+    <div class="title">mobile</div>
     <br />
     <div v-for="(item,index) in list" :key="index">{{item.name}}</div>
   </div>
@@ -57,5 +58,9 @@ export default {
 .home {
   height: 300px;
   background: red;
+
+  .title {
+    font-size: 14px;
+  }
 }
 </style>
