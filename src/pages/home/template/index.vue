@@ -57,6 +57,7 @@ export default {
 <style lang="scss" scoped>
 .home {
   height: 300px;
+  // height: 20rem;
   background: red;
 
   .title {

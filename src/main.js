@@ -5,6 +5,8 @@ import Vuex from 'vuex'
 import store from './store/entry/wx'
 Vue.use(Vuex)
 
+
+
 Vue.prototype.$store = store
 
 Vue.use(MpvueRouterPatch)
