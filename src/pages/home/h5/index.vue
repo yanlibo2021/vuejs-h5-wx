@@ -47,10 +47,10 @@ export default {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 3.2rem;
+  height: 320px;
   color: white;
   background-color: #f44;
-  font-size: 0.64rem;
+  font-size: 64px;
 }
 .panel {
   position: relative;

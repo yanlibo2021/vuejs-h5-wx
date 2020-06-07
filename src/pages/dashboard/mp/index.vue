@@ -10,12 +10,8 @@
     >
       <van-tabbar-item v-for="(item,index) in tabbars" :key="index" :info="item.num?item.num:''">
         <image slot="icon" :src="item.normal" mode="aspectFit" class="img" />
-        <image
-          slot="icon-active"
-          :src="item.active"
-          mode="aspectFit"
-          class="img"
-        />{{item.text}}
+        <image slot="icon-active" :src="item.active" mode="aspectFit" class="img" />
+        {{item.text}}
       </van-tabbar-item>
     </van-tabbar>
   </div>
@@ -56,7 +52,7 @@ export default {
           title: "home.cart",
           normal: "/static/images/tabbar/shoppingcart_default.png",
           active: "/static/images/tabbar/shoppingcart_selected.png",
-          num: 5,
+          num: 1,
           text: "购物车"
         },
         {

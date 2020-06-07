@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/dashboard/mp/main"
+    "pages/home/mp/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -8,8 +8,5 @@
     "navigationBarTitleText": "小慕读书",
     "navigationBarTextStyle": "black"
   },
-  "usingComponents": {
-
-  }
-  
+  "usingComponents": {}
 }
